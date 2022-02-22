@@ -1,0 +1,23 @@
+{
+    "name": "campus/unit_test",
+    "description": "Package to learn how to create unit test with PHPUnit",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Campus\\UnitTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benjamin Claux",
+            "email": "bclaux37@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "fakerphp/faker": "^1.19",
+        "squizlabs/php_codesniffer": "^3.6",
+        "phpunit/phpunit": "^9.5"
+    }
+}
